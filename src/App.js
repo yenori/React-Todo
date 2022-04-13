@@ -1,10 +1,9 @@
 import './App.css';
-import AlbumFeature from "./features/Album";
-
+import Todoform from "./components/Todo/todoform";
 function App() {
   return (
     <div className="App">
-      <AlbumFeature/>
+        <Todoform/>
     </div>
   );
 }
